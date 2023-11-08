@@ -14,8 +14,8 @@ int main(void)
 /************************
  **四位不重複的亂數產生**
  ************************/
-do
-{
+	do
+	{
 	
 	for(r1 = 0;r1 <= 3;r1++)									
 	{
@@ -141,17 +141,17 @@ do
 			scanf("%d",&replay_1);
 			if(replay_1 >= 1)
 			{
-				replay = 0;
+				replay = 1;
 			}
 			else
 			{
 				replay = 0;
 			}
-		}	
+		}
 	}
-	while(replay >= 1);
-}
-while(replay_1 >= 1);
+	while(replay_1 >= 1);
+	}		
+	while(replay_1 = 0);
 
 	printf("\n程式結束.....");
 	system("pause");
